@@ -1,0 +1,58 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f0f5ff;
+    color: #333;
+}
+
+/* Headings */
+h1 {
+    color: #1e90ff;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    color: #3366cc;
+    font-weight: bold;
+}
+
+/* Text */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Buttons */
+.stButton button {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.stButton button:hover {
+    background-color: #0077b6;
+    cursor: pointer;
+}
+
+/* Plots */
+.plot-container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    color: #1e90ff;
+    margin-top: 40px;
+}
